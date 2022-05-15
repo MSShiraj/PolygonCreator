@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+
+ .logo{ 
+    float: left;
+    width: 50px;
+    padding: 3px;
+    margin-left: 15px;
+    cursor: pointer;
+    
+ }
+
+ .Button{
+    float: left;
+    margin-left: 2%;
+    padding: 5px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+ }
+.DeactButton{
+    float: left;
+    margin-left: 2px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+ 
+.LabelButton{
+    float: right;
+    margin-left: 2px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+ .ColorSelector{
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1px 2px;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+ }
+
+ #adding-line-btn:hover{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(216, 92, 92);
+    border-color: aliceblue;
+    border-width: 4px;
+ }
+
+ #adding-line-btn{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(249, 85, 85);
+    cursor: pointer;
+    border-color: aliceblue;
+    border-width: 4px;
+ }
+
+ #deactivate-adding-shape-btn:hover{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(179, 138, 138);
+    border-color: aliceblue;
+    border-width: 4px;
+ }
+
+ #deactivate-adding-shape-btn{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgb(243, 153, 123);
+    border-color: aliceblue;
+    border-width: 4px;
+}
+
+ #toolbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #fffbd5, #b20a0a);
+    color: white;
+    width: 100vmax;
+    height: 50px;
+ }
+
+
+ .textarea{
+    float: right;
+    margin-left: 2px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+ }
+
+ #add-Text-Label-Btn{
+    background-color: #fffbd5;
+    cursor: pointer;
+    color: #b20a2c;
+    /* border-top-right-radius: 25px; */
+    border-radius: 25px;
+    border-color: aliceblue;
+    border-width: 4px;
+ }
+ #add-Text-Label-Btn:hover{
+    background-color: #e1ddb6;
+    border-color: aliceblue;
+    border-width: 4px;
+}
